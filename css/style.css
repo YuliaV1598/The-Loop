@@ -1,0 +1,128 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page-light {
+  background-color: #F9F6F1;
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 126px;
+  padding-top: 56px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav-item {
+  margin-right: 52px;
+}
+
+.nav-link {
+  color: #212121;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cart {
+  background-image: url(../img/bag.svg);
+  padding-left: 45px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+
+.cart-count {
+  background-image: url(../img/5.svg);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  color: #D7B399;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 15px 24px;
+  display: block;
+}
+
+.btn {
+  background-color: #D7B399;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 18px 33px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.main .sale-desc {
+  font-size: 30px;
+  letter-spacing: 0.6px;
+}
+
+.main .sale-title {
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 64px;
+  letter-spacing: 6.1px;
+}
+
+.main .box {
+  position: relative;
+}
+
+.main .box-price {
+  position: absolute;
+  right: 0;
+  top: 3;
+  text-align: right;
+}
+
+.main .box-price-old {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.main .box-price-new {
+  font-size: 24px;
+  font-weight: 700;
+  color: #D84033;
+  margin-top: 23px;
+}
+/*# sourceMappingURL=style.css.map */
