@@ -10,8 +10,15 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.page-light {
+.page {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    &-light{
     background-color: $light;
+    }
+    &-dark {
+        background-color: $dark;
+    }
 }
 .wrapper {
     max-width: 1110px;
@@ -23,7 +30,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 126px;
+    margin-bottom: 26px;
     padding-top: 56px;
 }
 .nav {
@@ -104,5 +111,17 @@ body {
             margin-top: 23px;
         }
      }
+    }
+}
+.notice {
+    text-align: center;
+    color: #fff;
+    padding: 50px 0;
+    &-title {
+        font-size: 30px;
+        text-transform: uppercase;
+        span {
+            font-weight: 700;
+        }
     }
 }
