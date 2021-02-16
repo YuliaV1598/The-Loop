@@ -13,6 +13,8 @@ body {
 .page {
     padding-top: 100px;
     padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     &-light{
     background-color: $light;
     }
@@ -30,7 +32,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 26px;
     padding-top: 56px;
 }
 .nav {
@@ -123,5 +124,12 @@ body {
         span {
             font-weight: 700;
         }
+    }
+}
+.collection {
+    display: flex;
+    justify-content: space-between;
+    &-item {
+    flex: 0 0 50%;
     }
 }
